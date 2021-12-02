@@ -1,0 +1,9 @@
+aminoAcidListG = ("Valine","Alanine","Aspartic Acid","Glutamic Acid","Glycine")
+aminoAcidListU = ("Phenylalanine","Leucine","Serine","Tyrosine","Ochre","Amber","Cysteine","UGA","Tryphophan")
+aminoAcidListC = ("Leucine","Proline","Histidine","Glutamine","Arginine")
+aminoAcidListA = ("Isoleucine","Methionine","Threonine","Asparagine","Lysine","Serine","Arginine")
+codons = input("Type any 3 letter combo of the letters U A G C. Ex: UGA: ")
+codonSplit = codons.split()
+if codonSplit[0] == "G":
+  if codonSplit[1] == "U":
+    print(aminoAcidListG[0])
